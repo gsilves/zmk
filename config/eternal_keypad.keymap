@@ -27,7 +27,7 @@
             bindings = <
          &kp F13    &kp N1    &kp N2     &kp N3  &kp N4     &kp N5  &kp N6
          &kp TAB    &kp Q     &kp W      &kp E   &kp R      &kp T   &kp N7
-&kp ESC  &kp F16    &kp A     &kp S      &kp D   &kp F      &kp G   &kp N8
+&kp ESC  &kp F12    &kp A     &kp S      &kp D   &kp F      &kp G   &kp N8
 &kp F14  &kp LSHFT  &kp Z     &kp X      &kp C   &kp V      &kp B   &kp N9
 &kp F15  &kp LCTRL  &sl FUNC  &kp SPACE          &kp SPACE          &lt ARROW N0
             >;
@@ -45,11 +45,11 @@
 
         function_layer {
             bindings = <
-             &trans    &kp F1    &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
-             &trans    &kp P     &kp O   &kp I   &kp U    &kp Y    &kp F7
-&bt BT_CLR   &kp BSPC  &kp SEMI  &kp L   &kp K   &kp J    &kp H    &kp F8
-&sys_reset   &trans    &kp LGUI  &kp M   &kp N   &kp F12  &kp F11  &kp F9
-&bootloader  &trans    &trans    &trans          &trans            &kp F10
+             &trans     &kp F1  &kp F2  &kp F3     &kp F4   &kp F5         &kp F6
+             &kp BSPC   &kp Y   &kp U   &kp I      &kp U    &kp P          &kp F7
+&bt BT_CLR   &kp ENTER  &kp H   &kp J   &kp K      &kp L    &kp SEMICOLON  &kp F8
+&sys_reset   &trans     &kp N   &kp M   &kp COMMA  &kp F12  &kp F11        &kp F9
+&bootloader  &trans     &trans  &trans             &trans                  &kp F10
             >;
         };
     };
