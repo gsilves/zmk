@@ -46,7 +46,7 @@
         function_layer {
             bindings = <
              &trans     &kp F1  &kp F2  &kp F3     &kp F4   &kp F5         &kp F6
-             &kp BSPC   &kp Y   &kp U   &kp I      &kp U    &kp P          &kp F7
+             &kp BSPC   &kp Y   &kp U   &kp I      &kp O    &kp P          &kp F7
 &bt BT_CLR   &kp ENTER  &kp H   &kp J   &kp K      &kp L    &kp SEMICOLON  &kp F8
 &sys_reset   &trans     &kp N   &kp M   &kp COMMA  &kp F12  &kp F11        &kp F9
 &bootloader  &trans     &trans  &trans             &trans                  &kp F10
